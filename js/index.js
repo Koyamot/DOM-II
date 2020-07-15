@@ -3,25 +3,34 @@
 //turn background grey back to white
 const body = document.querySelector('body'); 
 
-body.addEventListener('keypress', () => {
-        body.style.backgroundColor = 'gray';
 
-    if (body.style.backgroundColor === 'gray') 
-    {
-    body.addEventListener('keypress', () => {
-        body.style.backgroundColor = '#FFFFFF';
+    
+body.addEventListener('keypress', () => {
+    const curColor = body.style.backgroundColor;
+        if (curColor === "white"){
+        body.style.backgroundColor = "gray";
+        }
+        else
+        {
+        body.style.backgroundColor = "white";
+        }
     })
-    }   
-})
 
 // body.addEventListener("keypress", myFunction)
 // function myFunction() {
-//             body.style.backgroundColor = 'gray';
-//         else {
-//             body.style.backgroundColor = '#FFFFFF';
-//         }
 
+//         body.addEventListener('keypress', () => {
+//             if (body.style.backgroundColor = 'gray'){
+//             body.style.backgroundColor = '#FFFFFF';
+//             }
+//         })
+//         body.addEventListener('keypress', () =>{
+//             if(body.style.backgroundColor = '#FFFFFF'){
+//         body.style.backgroundColor = 'gray';
+//             }
+//     })
 // }
+
 
 
 
@@ -118,10 +127,5 @@ window.addEventListener('scroll', () => {
       alert("TROLLOLOLLLL!")
     }
   })
-
-
-
-
-
 
 
