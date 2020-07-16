@@ -16,23 +16,6 @@ body.addEventListener('keypress', () => {
         }
     })
 
-// body.addEventListener("keypress", myFunction)
-// function myFunction() {
-
-//         body.addEventListener('keypress', () => {
-//             if (body.style.backgroundColor = 'gray'){
-//             body.style.backgroundColor = '#FFFFFF';
-//             }
-//         })
-//         body.addEventListener('keypress', () =>{
-//             if(body.style.backgroundColor = '#FFFFFF'){
-//         body.style.backgroundColor = 'gray';
-//             }
-//     })
-// }
-
-
-
 
 //transparent header
 window.addEventListener('scroll', (e) => {
